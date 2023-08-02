@@ -64,6 +64,24 @@ body{
 
 /* End of Home Layout */
 
+a{
+    text-decoration: none;
+}
+
+/* Start Recipe Layout*/
+
+.back-btn{
+    background: var(--background);
+    display: block;
+    width: 60px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 2px var(--accent);
+
+}
+
 .wrapper-recipe{
     background: var(--background);
     width: 400px;
@@ -76,5 +94,32 @@ body{
 
 .recipe-img{
     display: block;
-    
+    margin: auto;
+    margin-bottom: 20px;    
 }
+
+.recipe-main-info{
+    color: var(--text);
+    text-align: center;
+    padding: 10px;
+}
+
+h3{
+    color: var(--text);
+    padding-top: 10px;
+}
+
+.recipe-info{
+    color: var(--text);
+    margin:10px;
+    font-size: large;
+    text-align: justify;   
+}
+
+.ingredients{
+    display: flex;
+    justify-content: center;
+    color:var(--text);
+}
+
+/* End Recipe Layout */
