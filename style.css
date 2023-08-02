@@ -24,14 +24,17 @@
 /* Home Layout */
 
 body{
-    background: grey; 
+    background-size: cover;
+    background-position: center;
+    background-image: url(/images/1123013.jpg);
 }
 
 .wrapper-home{
     background: var(--background);
     width: 400px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding: 20px;
     border-radius: 25px;
     box-shadow: 0px 0px 15px 2px var(--accent);
