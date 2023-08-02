@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    /* --text: #f7f4f2;
+    --background: #030202;
+    --primary: #2a3b46;
+    --secondary: #2e211a;
+    --accent: #6d91a6; */
+
+    --text: #030202;
+    --background: #f7f4f2;
+    --primary: #2a3b46;
+    --secondary: #f4efec;
+    --accent: #2e414c;
+}
+
+/* Home Layout */
+
+body{
+    background: grey; 
+}
+
+.wrapper-home{
+    background: var(--background);
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 2px var(--accent);
+
+}
+
+.game-name{
+    color: var(--text);
+    text-align: center;
+    font-size: 17px ;    
+}
+
+.web-name{
+    color: var(--text);
+    text-align: center;
+    font-size: 25px;
+}
+
+.emergency-food{
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.recipes-container{
+    display: grid;
+    justify-items: center;
+}
+
+/* End of Home Layout */
+
+.wrapper-recipe{
+    background: var(--background);
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px 2px var(--accent);
+}
+
+.recipe-img{
+    display: block;
+    margin: auto;
+}
