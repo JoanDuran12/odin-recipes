@@ -72,12 +72,24 @@ body{
     font-size: 15px;
 }
 
+
 a{
     text-decoration: none;
     color: var(--text);
 }
 
-.special-box{
+.recipe-item:hover{
+    background: var(--primary);
+    color: var(--secondary);
+    border-radius: 10px;
+}
+
+a:hover{
+    color: var(--secondary);
+}
+
+
+.credit-box{
     background: var(--background);
     text-align: center;
     width: fit-content;
