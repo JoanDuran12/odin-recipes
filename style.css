@@ -8,6 +8,7 @@
 }
 
 :root{
+  
     --text: #030202;
     --background: #f7f4f2;
     --primary: #2a3b46;
@@ -21,7 +22,7 @@
 body{
     background-size: cover;
     background-position: center;
-    background-image: url(/images/1123013.jpg);
+    background-image: url(./images/1123013.jpg);
 }
 
 .wrapper-home{
