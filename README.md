@@ -1,3 +1,3 @@
 # odin-recipes
 
-Odin Recipe is a project where your HTML basic skills will be tested and where you will have to desmostrate basic knowledge of HTML.
+Genshin Impact Recipe website made using HTML and CSS for the foundation course of The Odin Project
