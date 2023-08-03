@@ -8,17 +8,12 @@
 }
 
 :root{
-    /* --text: #f7f4f2;
-    --background: #030202;
-    --primary: #2a3b46;
-    --secondary: #2e211a;
-    --accent: #6d91a6; */
-
     --text: #030202;
     --background: #f7f4f2;
     --primary: #2a3b46;
     --secondary: #f4efec;
     --accent: #2e414c;
+
 }
 
 /* Home Layout */
@@ -26,7 +21,6 @@
 body{
     background-size: cover;
     background-position: center;
-    /* background-color: var(--accent); */
     background-image: url(/images/1123013.jpg);
 }
 
