@@ -66,6 +66,8 @@ body{
 }
 
 .recipe-item{
+    width: 140px;
+    height: 180px;
     display: block;
     text-align: center;
     padding: 10px;
